@@ -1,0 +1,10 @@
+sudo: false
+node_js:
+  - "6"
+env:
+  - TS_VERSION=1.8.10
+  - TS_VERSION=next
+install:
+  - npm install -g typescript@$TS_VERSION
+script:
+  - npm test
