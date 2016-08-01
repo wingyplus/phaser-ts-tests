@@ -3,8 +3,9 @@ language: node_js
 node_js:
   - "6"
 env:
-  - TS_VERSION=1.8.10
-  - TS_VERSION=next
+  - TS_VERSION=1.8.10 TS_OPT=
+  - TS_VERSION=next TS_OPT=
+  - TS_VERSION=next TS_OPT="--strictNullChecks"
 install:
   - npm install -g typescript@$TS_VERSION
 script:

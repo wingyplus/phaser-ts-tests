@@ -4,7 +4,7 @@
   "description": "Phaser TypeScript definition test",
   "main": "index.js",
   "scripts": {
-    "test": "tsc phaser-d-ts-test.ts && tsc phaser-comments-d-ts-test.ts"
+    "test": "tsc $TS_OPT phaser-d-ts-test.ts && tsc phaser-comments-d-ts-test.ts"
   },
   "author": "Thanabodee Charoenpiriyakij <wingyminus@gmail.com>",
   "license": "MIT",
